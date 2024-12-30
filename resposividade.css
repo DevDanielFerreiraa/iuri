@@ -1,0 +1,189 @@
+/* Responsividade */
+
+/* Telas pequenas (celulares em modo retrato) */
+@media (max-width: 600px) {
+    /* Cabeçalho */
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header .logo {
+      margin-bottom: 10px;
+    }
+  
+    header nav {
+      margin-top: 10px;
+    }
+  
+    header nav a {
+      margin: 5px 10px;
+    }
+  
+    /* Banner */
+    .banner {
+      padding: 50px 20px;
+      height: 300px;
+    }
+  
+    /* Seções */
+    section {
+      padding: 40px 15px;
+    }
+  
+    .conteiner {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .textosobre {
+      text-align: center;
+    }
+  
+    .conteiner-text {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .BUTTON {
+      text-align: center;
+    }
+  
+    /* Botões */
+    .consulta {
+      font-size: 14px;
+      padding: 8px 16px;
+      margin: 8px 0;
+    }
+  
+    /* Serviços */
+    .services .service-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    /* Redes sociais */
+    .social_container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    /* WhatsApp */
+    .social_whats {
+      font-size: 15px;
+      padding: 10px;
+    }
+  
+    /* Facebook */
+    .social_facebook {
+      font-size: 15px;
+      padding: 10px;
+    }
+  }
+  
+  /* Telas médias (tablets em modo retrato e celulares maiores) */
+  @media (max-width: 1024px) {
+    /* Cabeçalho */
+    header {
+      padding: 20px;
+    }
+  
+    header nav a {
+      margin: 5px 12px;
+    }
+  
+    /* Banner */
+    .banner {
+      height: 400px;
+      padding: 80px 30px;
+    }
+  
+    /* Seções */
+    section {
+      padding: 50px 15px;
+    }
+  
+    .conteiner {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .img {
+      max-width: 350px;
+      margin-right: 20px;
+    }
+  
+    .conteiner-text {
+      max-width: 800px;
+    }
+  
+    .social_container {
+      flex-direction: row;
+    }
+  
+    .social_whats, .social_facebook {
+      font-size: 16px;
+      padding: 8px 18px;
+    }
+  }
+  
+  /* Telas grandes (desktop) */
+  @media (min-width: 1025px) {
+    /* Cabeçalho */
+    header {
+      padding: 20px 40px;
+    }
+  
+    header .logo {
+      font-size: 2em;
+    }
+  
+    /* Banner */
+    .banner {
+      height: 450px;
+      padding: 100px 30px;
+    }
+  
+    /* Seções */
+    section {
+      padding: 60px 20px;
+    }
+  
+    .conteiner {
+      justify-content: space-between;
+    }
+  
+    .img {
+      max-width: 400px;
+    }
+  
+    .conteiner-text {
+      max-width: 900px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .consulta {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  
+    .services .service-card {
+      width: 30%;
+    }
+  
+    .social_container {
+      gap: 20px;
+    }
+  
+    .social_whats, .social_facebook {
+      font-size: 17px;
+      padding: 10px 20px;
+    }
+  }
+  
